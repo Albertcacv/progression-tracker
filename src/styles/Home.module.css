@@ -1,0 +1,27 @@
+.homeContainer {
+  width: 90%;
+  height: calc(100vh - var(--header-height));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeArticle {
+  border: 1px solid rgb(18, 233, 18);
+  width: 100%;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-xlarge);
+  margin-bottom: 2em;
+}
+
+.homeArticle > a {
+  color: #61dafb;
+  text-decoration: none;
+  font-family: 'Kalim';
+}
